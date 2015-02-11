@@ -1,0 +1,26 @@
+# $HeadURL: https://avpsvn.t-systems-mms.de/svn/avp/trunk/avp/src/main/conf/svn-config $
+# $Id: svn-config 8933 2009-03-03 11:03:09Z stbe $
+# Einstellungen, die in .subversion/config vorgenommen werden  muessen
+
+[miscellany]
+global-ignores = *.iml *.o *.lo *.la #*# .*.rej *.rej .*~ *~ .#* .DS_Store .classpath .idea .git .project .settings target
+enable-auto-props = yes
+
+[auto-props]
+# Textdateien, in denen die Keywords ersetzt werden sollen
+*.css =		svn:keywords=Author Date HeadURL Id Revision
+*.dtd =		svn:keywords=Author Date HeadURL Id Revision
+*.java =	svn:keywords=Author Date HeadURL Id Revision
+*.jnlp =	svn:keywords=Author Date HeadURL Id Revision
+*.jpif =	svn:keywords=Author Date HeadURL Id Revision
+*.js =		svn:keywords=Author Date HeadURL Id Revision
+*.jsp =		svn:keywords=Author Date HeadURL Id Revision
+*.html =	svn:keywords=Author Date HeadURL Id Revision
+*.properties =	svn:keywords=Author Date HeadURL Id Revision
+*.script =	svn:keywords=Author Date HeadURL Id Revision
+*.sh =		svn:keywords=Author Date HeadURL Id Revision;	svn:executable
+*.sql =		svn:keywords=Author Date HeadURL Id Revision
+*.tag =		svn:keywords=Author Date HeadURL Id Revision
+*.xml =		svn:keywords=Author Date HeadURL Id Revision
+*.xsd =		svn:keywords=Author Date HeadURL Id Revision
+
